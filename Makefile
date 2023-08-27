@@ -2,7 +2,7 @@
 
 Repo=codewisdom
 Tag=latest
-Namespace="default"
+Namespace="trainticket"
 DeployArgs=""
 
 

@@ -81,7 +81,7 @@ spec:
   selector:
     app: {{ template "fullname" . }}
     release: {{ .Release.Name | quote }}
-    role: follower
+    role: leader
 {{- end }}
 {{ if .Values.metrics.enabled }}
 ---
