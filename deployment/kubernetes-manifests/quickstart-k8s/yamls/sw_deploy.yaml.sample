@@ -2,6 +2,10 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ts-admin-basic-info-service
+  labels:
+    tags.datadoghq.com/env: "prod"
+    tags.datadoghq.com/service: "ts-admin-basic-info-service"
+    tags.datadoghq.com/version: "1.1"
 spec:
   selector:
     matchLabels:
@@ -10,7 +14,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-admin-basic-info-service
     spec:
@@ -80,7 +84,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-admin-order-service
     spec:
@@ -150,7 +154,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-admin-route-service
     spec:
@@ -220,7 +224,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-admin-travel-service
     spec:
@@ -290,7 +294,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-admin-user-service
     spec:
@@ -360,7 +364,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-assurance-service
     spec:
@@ -432,7 +436,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-auth-service
     spec:
@@ -504,7 +508,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-avatar-service
     spec:
@@ -574,7 +578,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-basic-service
     spec:
@@ -644,7 +648,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-cancel-service
     spec:
@@ -714,7 +718,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-config-service
     spec:
@@ -786,7 +790,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-consign-price-service
     spec:
@@ -858,7 +862,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-consign-service
     spec:
@@ -930,7 +934,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-contacts-service
     spec:
@@ -1002,7 +1006,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-delivery-service
     spec:
@@ -1076,7 +1080,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-execute-service
     spec:
@@ -1146,7 +1150,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-food-delivery-service
     spec:
@@ -1218,7 +1222,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-food-service
     spec:
@@ -1292,7 +1296,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-gateway-service
     spec:
@@ -1362,7 +1366,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-inside-payment-service
     spec:
@@ -1434,7 +1438,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-news-service
     spec:
@@ -1504,7 +1508,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-notification-service
     spec:
@@ -1578,7 +1582,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-order-other-service
     spec:
@@ -1652,7 +1656,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-order-service
     spec:
@@ -1726,7 +1730,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-payment-service
     spec:
@@ -1798,7 +1802,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-preserve-other-service
     spec:
@@ -1870,7 +1874,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-preserve-service
     spec:
@@ -1942,7 +1946,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-price-service
     spec:
@@ -2014,7 +2018,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-rebook-service
     spec:
@@ -2086,7 +2090,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-route-plan-service
     spec:
@@ -2156,7 +2160,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-route-service
     spec:
@@ -2228,7 +2232,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-seat-service
     spec:
@@ -2298,7 +2302,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-security-service
     spec:
@@ -2370,7 +2374,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-station-food-service
     spec:
@@ -2442,7 +2446,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-station-service
     spec:
@@ -2514,7 +2518,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-ticket-office-service
     spec:
@@ -2586,7 +2590,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-train-food-service
     spec:
@@ -2658,7 +2662,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-train-service
     spec:
@@ -2730,7 +2734,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-travel-plan-service
     spec:
@@ -2800,7 +2804,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-travel-service
     spec:
@@ -2872,7 +2876,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-travel2-service
     spec:
@@ -2944,7 +2948,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-user-service
     spec:
@@ -3016,7 +3020,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-verification-code-service
     spec:
@@ -3086,7 +3090,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-voucher-service
     spec:
@@ -3132,7 +3136,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-wait-order-service
     spec:
@@ -3204,7 +3208,7 @@ spec:
   template:
     metadata:
       annotations:
-        admission.datadog.com/java-lib.version: latest      
+        admission.datadoghq.com/java-lib.version: latest
       labels:
         app: ts-ui-dashboard
     spec:
