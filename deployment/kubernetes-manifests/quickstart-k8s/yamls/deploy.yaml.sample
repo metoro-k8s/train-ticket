@@ -12,6 +12,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-admin-basic-info-service
         app: ts-admin-basic-info-service
     spec:
       containers:
@@ -56,6 +60,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-admin-order-service
         app: ts-admin-order-service
     spec:
       containers:
@@ -100,6 +108,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-admin-route-service
         app: ts-admin-route-service
     spec:
       containers:
@@ -144,6 +156,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-admin-travel-service
         app: ts-admin-travel-service
     spec:
       containers:
@@ -188,6 +204,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-admin-user-service
         app: ts-admin-user-service
     spec:
       containers:
@@ -232,6 +252,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-assurance-service
         app: ts-assurance-service
     spec:
       containers:
@@ -278,6 +302,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-auth-service
         app: ts-auth-service
     spec:
       containers:
@@ -324,6 +352,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-avatar-service
         app: ts-avatar-service
     spec:
       containers:
@@ -368,6 +400,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-basic-service
         app: ts-basic-service
     spec:
       containers:
@@ -412,6 +448,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-cancel-service
         app: ts-cancel-service
     spec:
       containers:
@@ -456,6 +496,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-config-service
         app: ts-config-service
     spec:
       containers:
@@ -502,6 +546,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-consign-price-service
         app: ts-consign-price-service
     spec:
       containers:
@@ -548,6 +596,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-consign-service
         app: ts-consign-service
     spec:
       containers:
@@ -594,6 +646,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-contacts-service
         app: ts-contacts-service
     spec:
       containers:
@@ -640,6 +696,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-delivery-service
         app: ts-delivery-service
     spec:
       containers:
@@ -688,6 +748,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-execute-service
         app: ts-execute-service
     spec:
       containers:
@@ -732,6 +796,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/service: ts-food-service
+        tags.datadoghq.com/version: v0.155.0
         app: ts-food-service
     spec:
       containers:
@@ -780,6 +848,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-food-delivery-service
         app: ts-food-delivery-service
     spec:
       containers:
@@ -826,6 +898,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-gateway-service
         app: ts-gateway-service
     spec:
       containers:
@@ -870,6 +946,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-inside-payment-service
         app: ts-inside-payment-service
     spec:
       containers:
@@ -916,6 +996,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-news-service
         app: ts-news-service
     spec:
       containers:
@@ -960,6 +1044,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-notification-service
         app: ts-notification-service
     spec:
       containers:
@@ -1008,6 +1096,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-order-other-service
         app: ts-order-other-service
     spec:
       containers:
@@ -1056,6 +1148,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-order-service
         app: ts-order-service
     spec:
       containers:
@@ -1104,6 +1200,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-payment-service
         app: ts-payment-service
     spec:
       containers:
@@ -1150,6 +1250,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-preserve-other-service
         app: ts-preserve-other-service
     spec:
       containers:
@@ -1196,6 +1300,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-preserve-service
         app: ts-preserve-service
     spec:
       containers:
@@ -1242,6 +1350,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-price-service
         app: ts-price-service
     spec:
       containers:
@@ -1288,6 +1400,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-rebook-service
         app: ts-rebook-service
     spec:
       containers:
@@ -1334,6 +1450,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-route-plan-service
         app: ts-route-plan-service
     spec:
       containers:
@@ -1378,6 +1498,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-route-service
         app: ts-route-service
     spec:
       containers:
@@ -1424,6 +1548,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-seat-service
         app: ts-seat-service
     spec:
       containers:
@@ -1468,6 +1596,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-security-service
         app: ts-security-service
     spec:
       containers:
@@ -1514,6 +1646,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-station-food-service
         app: ts-station-food-service
     spec:
       containers:
@@ -1560,6 +1696,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-station-service
         app: ts-station-service
     spec:
       containers:
@@ -1606,6 +1746,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-ticket-office-service
         app: ts-ticket-office-service
     spec:
       containers:
@@ -1652,6 +1796,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-train-food-service
         app: ts-train-food-service
     spec:
       containers:
@@ -1698,6 +1846,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-train-service
         app: ts-train-service
     spec:
       containers:
@@ -1744,6 +1896,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-travel-plan-service
         app: ts-travel-plan-service
     spec:
       containers:
@@ -1788,6 +1944,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-travel-service
         app: ts-travel-service
     spec:
       containers:
@@ -1834,6 +1994,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-travel2-service
         app: ts-travel2-service
     spec:
       containers:
@@ -1880,6 +2044,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-user-service
         app: ts-user-service
     spec:
       containers:
@@ -1926,6 +2094,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-verification-code-service
         app: ts-verification-code-service
     spec:
       containers:
@@ -1970,6 +2142,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-voucher-service
         app: ts-voucher-service
     spec:
       containers:
@@ -2016,6 +2192,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-wait-order-service
         app: ts-wait-order-service
     spec:
       containers:
@@ -2062,6 +2242,10 @@ spec:
       annotations:
         admission.datadoghq.com/java-lib.version: latest
       labels:
+        admission.datadoghq.com/enabled: "true"
+        tags.datadoghq.com/env: prod
+        tags.datadoghq.com/version: v0.155.0
+        tags.datadoghq.com/service: ts-ui-dashboard
         app: ts-ui-dashboard
     spec:
       containers:
