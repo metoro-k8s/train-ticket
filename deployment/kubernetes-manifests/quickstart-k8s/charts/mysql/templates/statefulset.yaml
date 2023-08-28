@@ -54,10 +54,15 @@ spec:
           volumeMounts:
             - name: mysql-persistent-storage
               mountPath: /var/lib/mysql
+            - name: mysql-configmap
+              mountPath: /etc/mysql/conf.d
       volumes:
         - name: mysql-persistent-storage
           persistentVolumeClaim:
             claimName: {{ template "fullname" . }}-pv-claim
+        - name: mysql-configmap
+          configMap:
+            name: {{ template "fullname" . }}-configmap
 ---
 apiVersion: v1
 kind: PersistentVolume
@@ -81,3 +86,13 @@ spec:
   resources:
     requests:
       storage: 1Gi
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ template "fullname" . }}-configmap
+  namespace: {{ .Release.Namespace }}
+data:
+  my.cnf: |
+    [mysqld]
+    max_connections=2000
